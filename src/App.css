@@ -1,0 +1,10 @@
+.upload-video-section{
+display: flex;
+gap: 8px;
+}
+
+@media only screen and (max-width: 767px) {
+    .upload-video-section{
+      flex-wrap: wrap;
+}
+}
